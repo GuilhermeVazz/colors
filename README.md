@@ -70,13 +70,13 @@ Vamos criar uma variável estática onde ficará todas as cores de injeção. Ca
     ];
 ```
 
-Precisamos pegar a div que criamos no html, para isso eu irei usar o querySelector() uma função interna do JS, e atribuí-lo a uma variável chamada $coolors. Uma boa prática é quando você usar variáveis que apontam para uma tag HTML usar um $ na frente. Pois facilita a leitura do seu código e futuras manutenções. E se você já usa __jQuery__ já sabe do que estou falando. 
+Precisamos pegar a div que criamos no html, para isso eu irei usar o querySelector() uma função interna do JS, e atribuí-lo a uma variável chamada $coolors. Uma boa prática é quando você usar variáveis que apontam para uma tag HTML usar um $ na frente, pois facilita a leitura do seu código e futuras manutenções. E se você já usa __jQuery__ já sabe do que estou falando. 
 
 ```javascript 
     const $coolors = document.querySelector('#coolors');
 ```
 
-A parte mais importante na minha opinião, é se você adicionar mais de 5 cores no array __allColors__ seu código não vai quebrar, pois ele conta o total do array, que no meu caso foi 5 itens, e faz um for por casa um deles. Agora para cada loop que ele faz ele injeta uma div dentro da teg.
+A parte mais importante na minha opinião, é se você adicionar mais de 5 cores no array __allColors__ seu código não vai quebrar, pois ele conta o total do array, que no meu caso foi 5 itens, e faz um for por casa um deles. Agora para cada loop que ele faz ele injeta uma div dentro da tag.
 
 ```javascript
     allColors.forEach(() => {
@@ -180,7 +180,7 @@ Agora você pode desfrutar desse super poder em sueus projetos. E assim acabamos
 
 ### Como ajudar?
 
-- Erros gramaticais sempre acabam surjindo no __README.md__, e caso encontre algum pode mandar a correção por aqui mesmo. Fivarei muito feliz. Obrigado!
+- Erros gramaticais sempre acabam surjindo no __README.md__, e caso encontre algum pode mandar a correção por aqui mesmo. Ficarei muito feliz. Obrigado!
 
 ### Desafios:
 
